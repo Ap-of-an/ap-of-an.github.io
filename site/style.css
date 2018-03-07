@@ -1,0 +1,104 @@
+header {
+    font-family: sans-serif;
+    border-width: 0.14px;
+    border-color: #b5b7ba;
+    border-style: solid;
+    background-color: #dfdfdf;
+    height: 68px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    font-family: sans-serif;
+    color: #4d4d4d;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: left;
+    text-decoration: none;
+}
+a.content {
+    color: #6f4a25; /* Цвет ссылок */ 
+   }
+   a.content:visited { 
+    color: purple; /* Цвет посещенных ссылок */ 
+   }
+   a.content:hover {
+    color: red; /* Цвет ссылок при наведении на них курсора мыши */ 
+   }
+
+h1 {
+    font-family: sans-serif;
+    color: #2e353d;
+    font-size: 30 px;
+    font-weight: 300;
+    text-align: center;
+}
+
+main {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+    flex-wrap: wrap;
+}
+
+.smeh_zakon {
+    font-family: sans-serif;
+    display: block;
+    justify-content: space-around;
+    padding: 2%;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.smile_privet img {
+    width: 250px;
+    height: 250px;
+} 
+
+.zakon {
+    text-align: center;
+    font-family: sans-serif;
+    color: #4d4d4d;
+    font-size: 20px;
+    font-weight: 100;
+}
+.zakon img {
+    width: 500px;
+    height: 250px;
+    display:block;
+	margin:auto;
+}
+
+.smeh_zakon img {
+    width: 600px;
+    height: 350px;
+}
+
+.smeh_z {
+    text-align: center;
+}
+
+p {
+    font-family: sans-serif;
+    color: #242424;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 26px;
+    text-align: left;
+    width: 693;
+}
+
+footer {
+    background-color: #434445;
+    height: 132px;
+    font-family: sans-serif;
+    color: #a4a4a4;
+    font-size: 20px;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
