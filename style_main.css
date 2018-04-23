@@ -9,7 +9,7 @@ body {
     background-color: #f2e9e1;
 }
  header { 
-    height: 70px;
+    height: 60px;
     background-color: #cbe86b;
     overflow: hidden;
     min-width: 656px;
@@ -63,7 +63,7 @@ header ul li a {
 #button_login:hover {
     background-color: #4a321e;
 } 
-@media (max-width: 721px) {
+@media (max-width: 700px) {
   #button_login{
     display: none;
   }
