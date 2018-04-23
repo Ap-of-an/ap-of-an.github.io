@@ -11,21 +11,21 @@ body {
  header { 
     height: 60px;
     background-color: #cbe86b;
-    overflow: hidden;
+    overflow: auto;
     min-width: 656px;
     border-bottom: 12px solid #1c140d;
 }
 
 #logo {
-    margin-top: 13px;
+    margin-top: 10px;
     margin-left: 20px;
     float: left;
 }
 nav {
     min-width: 410px;
     max-width: 1000px;
-    margin-left: 130px;
-    margin-right: 150px;
+    margin-left: 100px;
+    margin-right: 110px;
     padding: 0 3%;
     padding-top: 15px;
 }
