@@ -93,7 +93,7 @@ header button {
 main {
     max-width: 960px;
     margin: 0 auto;
-
+    display: block;
 }
 #raph {
     color: #e74c3c;
