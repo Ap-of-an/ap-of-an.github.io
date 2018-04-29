@@ -273,6 +273,7 @@ form {
 form > input {
     background-color: rgba(149, 165, 166, 0.26);
     border: none;
+    height: 50px; /*если не указать это, то в IE будет некорректно отображаться размер поля ввода по высоте*/
     padding: 0 20px;
     font-size: 20px;
     box-sizing: border-box;
