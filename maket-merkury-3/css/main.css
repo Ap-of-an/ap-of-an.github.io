@@ -269,15 +269,8 @@
     #template .mockup {
         animation: moving-img 30s linear 0s infinite alternate none;}
     #template .anim {
-        width: 100%;
-        margin: 50px auto 10px;
         position: relative;
         z-index: 1;
-    }
-    #template .container-fichi {
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
     }
     #template .fichi {
         width: 200px;
@@ -309,43 +302,43 @@
       animation: move-line2 30s linear 0s infinite alternate none;
     } 
     #template .mockup img {width: 80%;}
-    @keyframes moving-img{
-      100% {
-        transform: skewX(-30deg) scale(1.1, 1.4) rotate(26deg);}
-    }
-    @keyframes move-fich1 {        
-      100% { transform: translateY(-300px);}
-    }
-    @keyframes move-fich2 {
-        100% { transform: translateY(300px);}
-    }
-    @keyframes move-line1 {
-      0% {  transform: scaleX(1.05);}
-      10% {  transform: scaleX(0.95);}
-      20% {  transform: scaleX(0.85);}
-      30% {  transform: scaleX(0.80);}
-      40% {  transform: scaleX(0.74);}
-      50% {  transform: scaleX(0.72);}
-      60% {  transform: scaleX(0.73);}
-      70% {  transform: scaleX(0.73);}
-      80% {  transform: scaleX(0.75);}
-      90% {  transform: scaleX(0.80);}
-      100% {  transform: scaleX(0.86);}
-    }    
-    @keyframes move-line2 {
-        0% {  transform: scaleX(1.0);}
-        10% {  transform: scaleX(0.82);}
-        20% {  transform: scaleX(0.67);}
-        30% {  transform: scaleX(0.58);}
-        40% {  transform: scaleX(0.50);}
-        50% {  transform: scaleX(0.45);}
-        60% {  transform: scaleX(0.43);}
-        70% {  transform: scaleX(0.41);}
-        80% {  transform: scaleX(0.42);}
-        90% {  transform: scaleX(0.46);}
-        100% {  transform: scaleX(0.50);}
-      }  
 }
+@keyframes moving-img{
+    100% {
+        transform: skewX(-30deg) scale(1.1, 1.4) rotate(26deg);}
+  }
+  @keyframes move-fich1 {        
+    100% { transform: translateY(-300px);}
+  }
+  @keyframes move-fich2 {
+    100% { transform: translateY(300px);}
+  }
+  @keyframes move-line1 {
+    0% {  transform: scaleX(1.05);}
+    10% {  transform: scaleX(0.95);}
+    20% {  transform: scaleX(0.85);}
+    30% {  transform: scaleX(0.80);}
+    40% {  transform: scaleX(0.74);}
+    50% {  transform: scaleX(0.72);}
+    60% {  transform: scaleX(0.73);}
+    70% {  transform: scaleX(0.73);}
+    80% {  transform: scaleX(0.75);}
+    90% {  transform: scaleX(0.80);}
+    100% {  transform: scaleX(0.86);}
+  }    
+  @keyframes move-line2 {
+    0% {  transform: scaleX(1.0);}
+    10% {  transform: scaleX(0.82);}
+    20% {  transform: scaleX(0.67);}
+    30% {  transform: scaleX(0.58);}
+    40% {  transform: scaleX(0.50);}
+    50% {  transform: scaleX(0.45);}
+    60% {  transform: scaleX(0.43);}
+    70% {  transform: scaleX(0.41);}
+    80% {  transform: scaleX(0.42);}
+    90% {  transform: scaleX(0.46);}
+    100% {  transform: scaleX(0.50);}
+  } 
 
 
 #pricing {
