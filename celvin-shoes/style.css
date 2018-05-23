@@ -1,0 +1,243 @@
+/* #region header*/
+header {
+  width: 100%;
+  position: relative;
+}
+.left,
+.right {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+.left {
+  left: 0;
+}
+.right {
+  right: 0;
+  background-color: #ffdaa6;
+}
+header .wraper-left {
+  background-image: linear-gradient(to bottom, #fafafa, #fafafa 97%, #f1f1f1 97%, #fff);
+}
+header .wraper-right {
+  background-color: #ffdaa6;
+  right: 0;
+}
+header .container {
+  margin: 0 auto;
+}
+header .hdr-left-part {
+  background-image: linear-gradient(to bottom, #fafafa, #fafafa 97%, #f1f1f1 97%, #fff);
+}
+header .hdr-left-part h2 {
+  font-family: 'Lora Regular';
+  font-size: 50px;
+}
+header .hdr-left-part .line-orange {
+  width: 233px;
+  height: 4px;
+  background-color: #ff9400;
+  margin-top: 24px;
+}
+header .banner {
+  position: relative;
+  width: 100%;
+  height: 550px;
+}
+header .banner .str-left,
+header .banner .str-right {
+  display: block;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 35%;
+  z-index: 5;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  background-color: #fff;
+}
+header .banner .str-left {
+  left: 0;
+  background-image: url(images/left.png);
+  background-position: center 66%;
+}
+header .banner .str-right {
+  right: 0;
+  background-image: url(images/right.png);
+  background-position: center 34%;
+}
+header .banner .str-left:hover,
+header .banner .str-right:hover {
+  box-shadow: #a8a8a8 0 0 5px;
+}
+header .banner .str-left:active,
+header .banner .str-right:active {
+  box-shadow: #a8a8a8 0 0 10px 1px inset;
+}
+header .banner .nadpisi {
+  position: absolute;
+  top: 20px;
+  z-index: 3;
+}
+header .banner img:last-of-type {
+  position: absolute;
+  right: 11%;
+  z-index: 2;
+}
+
+ header .banner > div {
+  height: 484px;
+  width: 484px;
+  background-color: #ffdaa6;
+  position: absolute;
+  border-radius: 50%;
+  top: -6px;
+  right: 62px;
+  z-index: 1;
+} 
+
+header .banner ul {
+  list-style: none;
+  padding-left: 0;
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+}
+header .banner ul a {
+  display: block;
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  background-color: #c6c6c6;
+  margin-bottom: 10px;
+}
+header .banner ul a:hover {
+  box-shadow: 0 0 5px #a8a8a8;
+}
+header .banner ul a.active {
+  background-color: #ff9400;
+}
+header .hdr-right-part {
+  text-align: center;
+}
+header .hdr-right-part h3 {
+  padding: 10px 0;
+  box-sizing: border-box;
+  border-bottom: 1px solid #000;
+  border-top: 1px solid #000;
+  font-family: "Roboto Lignt";
+  font-size: 27px;
+  text-transform: uppercase;
+}
+header .hdr-right-part .made-rus{
+  font-family: "Roboto Black";
+  font-size: 18px;
+}
+header nav {
+  margin-top: 55px;
+  text-align: left;
+  margin-left: 40px;
+  margin-bottom: 50px;
+}
+header nav ul {
+  padding-left: 0;
+  list-style: none;
+}
+header nav li {
+  margin-bottom: 20px;
+}
+header nav a {
+  font-family: "Roboto Light";
+  font-size: 18px;
+  color: #000;
+}
+header nav a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+header .call-me {
+  text-decoration: none;
+  color: #000;
+  font-family: "Roboto Medium";
+  font-size: 16px;
+  padding: 15px 30px;
+  border-radius: 30px;
+  background-color: #fff;
+}
+header .call-me:hover {
+  background-color: rgba(198, 198, 198, 0.747);
+  transition: 250ms ease-in-out;
+}
+/* #endregion header*/
+
+/* #region models*/
+#models {
+  height: 500px; /*Для теста*/
+  background-color: #fff;
+  opacity: 0.4;
+}
+/* #endregion models*/
+
+/* #region about-us*/
+#about-us {
+  max-height: 400px;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+}
+#about-us .left {
+  background: url(images/O-nas-1.png) right 0/cover  no-repeat;
+}
+#about-us .container,
+#about-us .row {
+  height: 100%;
+}
+#about-us .col-xl-9 {
+  background: url(images/O-nas.png) right 0/cover  no-repeat;
+  padding-right: 30px;
+  
+}
+#about-us .col-5 h2{
+  font-family: "Lora Bold";
+  font-size: 54px;
+  color: #333333;
+}
+#about-us .col-5 p {
+  font-family: "Roboto Medium";
+  font-size: 18px;
+  color: #3e3e3f;
+}
+#about-us .col-7{
+  margin-top: 55px;
+  height: 280px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #fff;
+  padding: 20px;
+}
+#about-us .col-7 h4 {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "Roboto Medium";
+}
+#about-us .col-7 hr {
+  width: 30px;
+  height: 2px;
+  background-color: #ff9400;
+  margin: 10px 0;
+
+}
+#about-us .col-7 p {
+  font-size: 12px;
+  font-family: "Roboto Light";
+  color: #aaaaaa;
+}
+#about-us .col-7 div {
+  width: 45%;
+}
+
+/* #endregion about-us*/
+
