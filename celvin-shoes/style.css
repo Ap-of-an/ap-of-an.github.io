@@ -1,3 +1,10 @@
+section {
+  position: relative;
+}
+.container,
+.container > .row {
+  height: 100%;
+}
 /* #region header*/
 header {
   width: 100%;
@@ -174,10 +181,82 @@ header .call-me:hover {
 
 /* #region models*/
 #models {
-  height: 500px; /*Для теста*/
-  background-color: #fff;
-  opacity: 0.4;
+  height: 700px; /*Для теста*/
 }
+#models .left,
+#models .col-xl-9 {
+  background-color: #fff;
+}
+#models .col-xl-9 .row {
+  margin-top: 20px;
+  justify-content: space-around;
+}
+#models .col-xl-9 > h2,
+#models .col-xl-9 > p {
+  text-align: center;
+}
+#models .col-xl-9 > h2 {
+  font-family: "Lora Bold";
+  font-size: 50px;
+}
+#models .col-xl-9 > p {
+  font-family: "Roboto Light";
+  color: #333;
+  font-size: 30px;
+}
+#models .item-shoes {
+  height: 258px;
+  max-width: 23%;
+  padding: 190px 0 0;
+  background-image: url(images/catalog-set-shoes.png);
+  background-repeat: no-repeat;
+  background-color: #e6e6e6;
+  box-shadow: rgba(235, 234, 234, 0.574) 0 8px 20px 1px;
+}
+#models .item-shoes:hover {
+  box-shadow: rgb(224, 224, 224) 0 8px 20px 1px;
+  cursor: pointer;
+}
+#models .item-shoes:nth-child(1) {
+  background-position: 19px 10px;
+}
+#models .item-shoes:nth-child(2) {
+  background-position: -245px 10px;
+}
+#models .item-shoes:nth-child(3) {
+  background-position: -497px 10px;
+}
+#models .item-shoes:nth-child(4) {
+  background-position: -747px 10px;
+}
+#models span {
+  display: block;
+  text-align: left;
+  background-color: #fff;
+  width: 100%;
+  padding: 5px 0;;
+  box-sizing: border-box;
+}
+#models span.shoes-type{
+  font-family: "Roboto Light";
+  font-size: 16px;
+  color: #333333;
+  padding-left: 10px;
+}
+#models .item-shoes:hover span.shoes-type {
+  margin: 0 -1px;
+  border-left: 1px solid #ffdaa6;
+  border-right: 1px solid #ffdaa6;
+  border-bottom: 1px solid #ffdaa6;
+}
+#models span.price{
+  font-family: "Roboto Bold";
+  font-size: 16px;
+  color: #333333;
+  font-weight: bold;
+}
+
+
 /* #endregion models*/
 
 /* #region about-us*/
@@ -203,6 +282,7 @@ header .call-me:hover {
   font-family: "Lora Bold";
   font-size: 54px;
   color: #333333;
+  margin-top: 30px;
 }
 #about-us .col-5 p {
   font-family: "Roboto Medium";
