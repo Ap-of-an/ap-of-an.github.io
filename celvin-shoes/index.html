@@ -7,6 +7,10 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   <title>Document</title>
+
+  <!-- Капча -->
+  <script src='https://www.google.com/recaptcha/api.js'></script>
+
 </head>
 <body>
   <header>
@@ -112,7 +116,6 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-3"></div>
       </div>
     </div>
   </section>
@@ -185,45 +188,200 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-3"></div>
       </div>
     </div>
   </section>
   <section id="guarantees">
+    <div class="left"></div>
+    <div class="right"></div>
     <div class="container">
       <div class="row">
-        <div class="col-lg-9"></div>
-        <div class="col-lg-3"></div>
+        <div class="col-xl-9">
+          <h2>Гарантии</h2>
+          <p>
+            Первой и самой главной гарантией является наше ответственное отношение к делу и наша любовь к вам. <br>Мы любим наших покупателей!
+          </p>
+          <div class="row">
+            <div class="col-4">
+              <span class="circle">14</span>
+              <p>Обмен и возврат <br>
+                  неношенной обуви - 14 дней</p>
+              <span class="st-25-zakon">(статья 25 Закона о защите прав потребителей)</span>
+            </div>
+            <div class="col-4">
+              <span class="circle">100</span>
+              <p>
+                100% гарантия <br>
+                получения заказа</p>
+            </div>
+            <div class="col-4">
+              <span class="circle">30</span>
+              <p>
+                Гарантия на возврат <br> в случае брака - 30 дней,<br> не считая дня покупки
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
   <section id="reviews">
+    <div class="left"></div>
+    <div class="right"></div>
     <div class="container">
       <div class="row">
-        <div class="col-lg-9"></div>
-        <div class="col-lg-3"></div>
+        <div class="col-xl-9">
+          <h2>Отзывы</h2>
+          <p>Что думают наши покупатели?</p>
+          <div class="row">
+            <div class="str-left"></div>
+            <div class="col-10 comment">
+              <div class="men">
+                <img src="images/man.png" alt="Аватарка человека">
+                <span class="man-name">Диана</span><br>
+                <span class="date">12 марта 2018</span>
+              </div>
+              <p class="text-comment">
+                Я в восторге, все в себя прийти немогу. До этого покупала "на заказ"сделали великовато, а эти сели идеально. Сшито все очень качественно, кожа мягкая, приятная. Обязательно будуеще заказывать и друзьям рекомендовать.Спасибо!)
+              </p>
+            </div>
+            <div class="str-right"></div>
+          </div>
+          <ul>
+            <li><a class="active" href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+          </ul>
+        </div>
       </div>
     </div>
   </section>
   <section id="how-to-make-order">
+    <div class="left"></div>
+    <div class="right"></div>
     <div class="container">
       <div class="row">
-        <div class="col-lg-9"></div>
-        <div class="col-lg-3"></div>
+        <div class="col-xl-9">
+          <h2>Как сделать заказ?</h2>
+          <p>Пошаговая инструкция</p>
+          <div class="row">
+            <div class="col-5">
+              <img src="images/order.png" alt="Девушка в очках с ноутом">
+            </div>
+            <div class="col-7">
+              <ul>
+                <li>
+                  <span><b>Выбрать</b> модель на сайте, а также цвет и материал верха</span>
+                </li>
+                <li>
+                  <span><b>Снять</b> мерки</span>
+                </li>
+                <li>
+                  <span><b>Отправить</b> данные менеджеру по телефону или при помощи whatsapp, viber, telegram на номера указанные в разделе “Контакты”</span>
+                </li>
+                <li>
+                  <span>Наш менеджер <b>согласует</b> с вами порядок оплаты, условия доставки и примерные сроки изготовления заказа <span>(не более 14 дней)</span></span>
+                </li>
+                <li>
+                  <span><b>Ожидать</b> изготовления и доставки вашего заказа <span>(после изготовления заказа менеджер свяжется с вами для уточнения времени доставки)</span></span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
   <section id="measurements">
+    <div class="left"></div>
+    <div class="right"></div>
     <div class="container">
       <div class="row">
-        <div class="col-lg-9"></div>
-        <div class="col-lg-3"></div>
+        <div class="col-xl-9">
+          <h2>Как снять мерки?</h2>
+          <p>
+            Данные мерки снимаются для получения информации о длине стопы и полноте стопы клиента. <br>  Для точных результатов клиента надо поставить на пол равномерно, на обе ноги, он не должен переминаться с ноги на ногу или перекашиваться, стоит прямо.
+          </p>
+          <a href="#">
+            Скачайте нашу инструкцию “<b>Как снять мерки с ноги</b>”
+          </a>
+          <a href="#" class="btn-download">Скачать</a>
+        </div>
       </div>
     </div>
   </section>
-  <section></section>
-  <section></section>
-  <footer></footer>
+  <section id="contacts">
+    <div class="left"></div>
+    <div class="right"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-9">
+          <div class="row">
+            <div class="col-6">
+              <h2>Контакты</h2>
+              <p>Свяжитесь с нами</p>
+              <div class="phone-numbers">
+                <span class="tell">+7 915 298-68-05</span>
+                <span class="tell">+7 966 123-22-04</span>
+                <span class="messegers">Telegramm, WhatsApp, Viber</span>
+              </div>
+              <div class="social-ntks">
+                <p>Мы в социальных сетях:</p>
+                <a href="https://vk.com"></a>
+                <a href="https://instagram.com"></a>
+                <a href="https://youtube.com"></a>
+              </div>
+            </div>
+            <div class="col-6">
+              <h3>Сделать заказ</h3>
+              <form action="">
+                <select name="" id="list-models">
+                  <option value="">Выберите модель</option>
+                  <option value="Женские моники_1">Женские моники_1</option>
+                  <option value="Женские моники_2">Женские моники_2</option>
+                  <option value="Женские моники_3">Женские моники_3</option>
+                  <option value="Женские моники_4">Женские моники_4</option>
+                </select>
+                <input type="text" placeholder="Ваше имя">
+                <input type="tel" placeholder="Телефон">
+                
+                <div class="soglasie">
+                  <input type="checkbox" id="sogl">
+                  <label for="sogl">
+                    Нажимая кнопку <span>ЗАКАЗАТЬ</span>, я соглашаюсь <br> с <a href="#"> Условиями</a> и <a href="#">Политикой безопасности</a>
+                  </label>
+                </div>
+                <div class="g-recaptcha" data-sitekey="6LcYtSQTAAAAAPNjrDKIiFFhwwcpaqzIkywyyZMS"></div>
+                <a href="" id="success">ЗАКАЗАТЬ</a>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="left"></div>
+    <div class="right"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-9">
+          <p>© celvins-shoes.net -2016-2018. Все права защищены</p>
+          <div>
+            <a href="#">Договор оферты</a>
+            <a href="#">Политика безопасности</a>
+          </div>
+        </div>
+        <div class="col-xl-3">
+          <div class="row">
+            <div class="col-4 offset-7">
+              <a href="#" class="up"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
   
   
   <!-- for bootstrap Js -->
