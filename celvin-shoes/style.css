@@ -308,12 +308,11 @@ header .call-me:hover {
   font-size: 14px;
   font-family: "Roboto Medium";
 }
-#about-us .col-7 hr {
+#about-us .col-7 .small-line-orange {
   width: 30px;
   height: 2px;
   background-color: #ff9400;
   margin: 10px 0;
-
 }
 #about-us .col-7 p {
   font-size: 12px;
@@ -530,10 +529,20 @@ header .call-me:hover {
 #how-to-make-order ul {
   background-color: #fcfcfc;
   margin-top: 34px;
+  list-style: none;
 }
 #how-to-make-order li {
-  list-style-type: square;
-  color: #ff9400;
+  position: relative;
+}
+#how-to-make-order li:before {
+  content: "";
+  position: absolute;
+  left: -17px;
+  top: 9px;
+  display: block;
+  width: 6px;
+  height: 6px;
+  background-color: #ff9400;
 }
 #how-to-make-order li > span {
   font-family: "Roboto Medium";
