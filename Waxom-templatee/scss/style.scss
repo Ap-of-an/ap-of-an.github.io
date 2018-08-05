@@ -185,7 +185,6 @@ header {
   display: flex;
   justify-content: center;
   min-height: 100vh;
-  min-width: 391px;
   padding-top: 100px;
   .carousel-item {
     color: #fff;
@@ -239,6 +238,9 @@ header {
 [class*="carousel-control-"] {
   font-size: 3.3333rem;
   opacity: 1;
+  @media (max-width: map-get($grid-breakpoints, sm)) {
+    display: none;
+  }
 }
 [class*="carousel-control-"]:hover,
 [class*="carousel-control-"]:hover {
