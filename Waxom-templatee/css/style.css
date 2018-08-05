@@ -1828,7 +1828,7 @@ h2 + p {
       color: #c7b299; }
 
 .video {
-  background: #8c8c8c url(../img/);
+  background: #8c8c8c;
   overflow: visible; }
   .video .wr {
     overflow: hidden;
